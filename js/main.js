@@ -12,7 +12,7 @@ function showHome(){
     $("#team").hide();
 }
 
-function showTeam(){
+function showSponcers(){
     $("#events").hide();
     $("#home").hide();
     $("#sponcers").show();
