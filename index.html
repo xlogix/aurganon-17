@@ -4,19 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Aurganon'17</title>
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/rain.css" rel="stylesheet">
   </head>
+
+<style>
+    @font-face{ 
+        font-family: 'magic-school';
+        src: url('assets/fonts/magic-school.ttf');
+    }
+</style>
 
 <body>
     
-    <div class="full-page" id="home">home</div>
-    <div class="full-page" id="events">events</div>
+    <div class="full-page rain" id="home">
+        <h2 class="home-title col-xs-offset-6">Aurganon'17</h2>
+        <button class="btn col-xs-offset-6 harry-btn home-btn" onclick="showEvents()" id="event-btn">Events</button>
+        <button class="btn harry-btn home-btn" >Events</button>
+        <button class="btn harry-btn home-btn" >Events</button>
+    </div>
+
+    <div class="full-page" id="events">
+    </div>
     <div class="full-page" id="sponcers">sponcers</div>
 
 </body>
     <script src="vendors/jquery/jquery.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/rain.js"></script>
 </html>
