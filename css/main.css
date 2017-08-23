@@ -20,11 +20,9 @@ body{
 .harry-btn:hover{
     background-color: rgba(0, 0, 0, 0);
     border-color: #333333;
-    /*z-index: 2;*/
 }
 .home-btn{
     margin-top: 3rem;
-    /*margin-right: 7rem;*/
     font-family: "magic-school";
     font-size: 30px;
 }
