@@ -4,14 +4,9 @@
     width: 100%;
 }
 
-/*#home{
-    background: url(../assets/images/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: scroll;
-    z-index: 0;
-}*/
+body{
+    overflow: hidden;
+}
 
 .home-title{
     margin-top: 21rem;
