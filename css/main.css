@@ -14,8 +14,8 @@ body{
     font-size: 12rem;
 }
 .harry-btn{
-    background: rgba(0,0,0,.5);
-    color: #fff
+    background: rgba(0, 0, 0, 0.21);
+    color: rgba(255, 255, 255, 0.66);
 }
 .harry-btn:hover{
     background-color: rgba(0, 0, 0, 0);
