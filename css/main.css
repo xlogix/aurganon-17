@@ -35,3 +35,6 @@
     font-family: "magic-school";
     font-size: 30px;
 }
+.events{
+    background: url( ../assets/images/event_bg.jpg)
+}

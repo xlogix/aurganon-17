@@ -1,0 +1,53 @@
+.container {
+  margin: 10px 100px;
+  max-width: 320px;
+}
+
+.photo-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.photo-card > .img {
+  width: 100%;
+}
+.photo-card > .heading {
+  margin: 20px;
+  text-align: left;
+}
+.photo-card > .heading > .title {
+  margin: 0 0 9px 0;
+  color: #000000;
+}
+.photo-card > .heading > .subtitle {
+  margin: 0;
+  color: #4A90E2;
+}
+.photo-card > .description {
+  margin: 0 20px 59px 20px;
+  text-align: center;
+}
+.photo-card > .description > p {
+  color: rgba(74, 74, 74, 0.68);
+}
+.photo-card > .action {
+  border: 3px solid #4A90E2;
+  border-radius: 3px;
+  text-align: center;
+  width: 280px;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 13px;
+}
+.photo-card > .action > .button {
+  color: #4A90E2;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
