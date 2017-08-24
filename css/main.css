@@ -20,9 +20,24 @@ body{
 .harry-btn:hover{
     background-color: rgba(0, 0, 0, 0);
     border-color: #333333;
+    /*-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);*/
+    /*transform: rotate(7deg);*/
 }
 .home-btn{
     margin-top: 3rem;
     font-family: "magic-school";
     font-size: 30px;
+}
+.modal-content{
+    background-color: rgba(8, 8, 8, 0);
+    color: #fff;
+    font-family: "magic-school";
+}
+.text-box{
+    margin-bottom: 12px;
+}
+.modal-btn:hover{
+    color: #fff;
+    border-color: #fff;
 }
