@@ -41,3 +41,15 @@ body{
     color: #fff;
     border-color: #fff;
 }
+.back-btn{
+    color: #999;
+    font-size: 25px;
+    margin: 23px;
+    float: right;
+}
+.back-btn:hover{
+    color: #fff;
+    /*-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);*/
+}

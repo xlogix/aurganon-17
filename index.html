@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aurganon'17</title>
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/light.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/rain.css" rel="stylesheet">
   </head>
 
 <style>
-    @font-face{ 
+    @font-face{
         font-family: 'magic-school';
         src: url('assets/fonts/magic-school.ttf');
     }
 </style>
 
 <body>
-    
+
+    <audio autoplay loop>
+    <source src="assets/images/Music.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="rain" id="home">
         <div class="bg"></div>
         <div class="lightning flashit"></div>
@@ -36,17 +41,24 @@
     </div>
 
     <div class="full-page" id="events">
-
+        <i class="fa fa-times-circle back-btn" onclick="showHome()" aria-hidden="true"></i>
+        <div class="container">
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <div class="full-page" id="sponcers">
-
+        <i class="fa fa-times-circle back-btn" onclick="showHome()" aria-hidden="true"></i>
     </div>
 
 
     <div class="full-page" id="team">
-
+        <i class="fa fa-times-circle back-btn" onclick="showHome()" aria-hidden="true"></i>
     </div>
 
 </body>
@@ -57,5 +69,5 @@
 </html>
 
 <div id="regis-plate"></div>
-
 <div id="login-plate"></div>
+
