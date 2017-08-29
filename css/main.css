@@ -48,6 +48,13 @@ body{
 .text-box{
     margin-bottom: 12px;
 }
+.modal-title{
+    font-size: 3rem;
+}
+.modal-btn{
+    font-size: 3rem;
+    box-shadow: 3px 3px 10px #000;
+}
 .modal-btn:hover{
     color: #fff;
     border-color: #fff;
